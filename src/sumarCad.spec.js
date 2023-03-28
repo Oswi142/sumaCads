@@ -2,10 +2,10 @@ import sumarCadenas from "./suma_cadenas";
 
 describe("Sumar", () => {
     it("Debería retornar el resultado de 0", () => {
-      expect(sumarCadenas("")).toEqual(0);
+    expect(sumarCadenas("")).toEqual(0);
     });
     it("Debería retornar el resultado de 1", () => {
-        expect(sumarCadenas("1")).toEqual(1);
+    expect(sumarCadenas("1")).toEqual(1);
     });
     it("Debería retornar el resultado de 1,2", () => {
     expect(sumarCadenas("1,2")).toEqual(3);
