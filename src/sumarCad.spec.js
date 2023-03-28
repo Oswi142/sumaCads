@@ -1,3 +1,5 @@
+import sumarCadenas from "./suma_cadenas";
+
 describe("Sumar", () => {
     it("Debería retornar el resultado de 0", () => {
       expect(sumarCadenas("")).toEqual(0);
