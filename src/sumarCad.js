@@ -1,19 +1,20 @@
-function sumarCadenas(cad){
+function sumarcads(cad)
+{
     let suma = 0;
-    for(let i =0;i<cadena.length;i++)
+    for(let i =0;i<cad.length;i++)
     {
-        if(cadena[i]==",")
+        if(cad[i]==",")
         {
-            if(cadena[i]=="," || cadena[i]=="-")
+            if(cad[i]=="," || cad[i]=="-")
             {
-                suma+=0;
+            suma+=0;
             }
-            else
-            {
-            suma +=+cadena[i];
-            }
+        }
+        else
+        {
+            suma += +cad[i];
         }
     }    
     return suma;
 }
-export default sumarCadenas;
+export default sumarcads;
