@@ -10,7 +10,7 @@ describe("Sumar", () => {
     it("Debería retornar el resultado de 1,2", () => {
     expect(sumarCadenas("1,2")).toEqual(3);
     });
-    xit("Debería retornar el resultado de varios valores", () => {
+    it("Debería retornar el resultado de varios valores", () => {
     expect(sumarCadenas("1,2,3,4,5")).toEqual(15);
     });
     xit("Debería retornar el resultado de 2 números separados por un guión", () => {
